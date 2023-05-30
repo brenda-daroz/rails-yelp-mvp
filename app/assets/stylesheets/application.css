@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+body {
+  max-width: 80vw;
+  margin: 50px auto;
+}
+
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-direction: column; */
+
+
+}
+
+.restaurant-container {
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 1px 1px 5px rgb(157, 157, 157);
+}
